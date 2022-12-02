@@ -1,0 +1,57 @@
+.style1 {
+    display: none;
+}
+
+.style2 {
+    background-color: #6CADEE;
+    padding: 15;
+    border-radius: 10;
+    margin: 5;
+    width: 60%;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    z-index: 10;
+    height: 728;
+    display: block;
+
+}
+
+.style3 {
+    display: table-row;
+}
+
+.titleStyle {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.centerStyle {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonStyle {
+    background-color: #EE6C6C;
+    padding: 5;
+    border-radius: 10;
+    margin: 5;
+    width: 100;
+}
+
+.disabledButtonStyle {
+    background-color: #976968;
+    padding: 5;
+    border-radius: 10;
+    margin: 5;
+    width: 100;
+    pointer-events: none;
+    
+}
+
+.errorTextStyle {
+    color: red;
+    font-size: .7rem;
+    display: none;
+}
